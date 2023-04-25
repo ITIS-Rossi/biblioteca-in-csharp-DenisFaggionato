@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\denis\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\denis\\Biblioteca\\Biblioteca.csproj",
+      "projectPath": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\denis\\Biblioteca\\obj\\",
+      "outputPath": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config"

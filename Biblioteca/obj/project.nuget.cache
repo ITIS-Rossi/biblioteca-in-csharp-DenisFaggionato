@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S0oVr+0AqBGnQq7qhvar8eMqtO+2vo/VCaIEEOl//93ETsnw51wgAMSchH7a5QcHP9op0nSSYk6vw/Sr9Twfiw==",
+  "dgSpecHash": "uj9VXUwf7ydDw/kyOmieNU2YO5SaUAQOSARX9qHvybpy4PQU+jcvs1gc3o1IYdcs8ZbWnUzhoVOC4ucYq65JXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\denis\\Biblioteca\\Biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
