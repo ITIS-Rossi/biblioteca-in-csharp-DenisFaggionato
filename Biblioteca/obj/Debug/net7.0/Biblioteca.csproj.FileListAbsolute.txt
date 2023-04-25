@@ -1,0 +1,15 @@
+C:\Users\denis\Biblioteca\obj\Debug\net7.0\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\denis\Biblioteca\obj\Debug\net7.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denis\Biblioteca\obj\Debug\net7.0\Biblioteca.AssemblyInfoInputs.cache
+C:\Users\denis\Biblioteca\obj\Debug\net7.0\Biblioteca.AssemblyInfo.cs
+C:\Users\denis\Biblioteca\obj\Debug\net7.0\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\denis\Biblioteca\bin\Debug\net7.0\Biblioteca.exe
+C:\Users\denis\Biblioteca\bin\Debug\net7.0\Biblioteca.deps.json
+C:\Users\denis\Biblioteca\bin\Debug\net7.0\Biblioteca.runtimeconfig.json
+C:\Users\denis\Biblioteca\bin\Debug\net7.0\Biblioteca.dll
+C:\Users\denis\Biblioteca\bin\Debug\net7.0\Biblioteca.pdb
+C:\Users\denis\Biblioteca\obj\Debug\net7.0\Biblioteca.dll
+C:\Users\denis\Biblioteca\obj\Debug\net7.0\refint\Biblioteca.dll
+C:\Users\denis\Biblioteca\obj\Debug\net7.0\Biblioteca.pdb
+C:\Users\denis\Biblioteca\obj\Debug\net7.0\Biblioteca.genruntimeconfig.cache
+C:\Users\denis\Biblioteca\obj\Debug\net7.0\ref\Biblioteca.dll
