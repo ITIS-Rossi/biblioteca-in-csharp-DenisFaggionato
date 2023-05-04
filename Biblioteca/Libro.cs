@@ -6,6 +6,7 @@ public class Libro {
     private int pagine;
 
     public Libro(string TitoloLibro, Autore AutoreLibro, int AnnoLibro, int NumPagine){
+        AutoreLibro.Aggiungi(this);
         this.Titolo = TitoloLibro;
         this.Autore = AutoreLibro;
         this.Anno = AnnoLibro;
@@ -13,6 +14,9 @@ public class Libro {
     }
 
     public override string ToString(){
-        return $"'{this.Titolo}' pubblicato nel {this.Anno} da {this.Autore} ";
+        
+        return $"'{this.Titolo}' pubblicato nel {this.Anno}";
     }
+    
+
 }
