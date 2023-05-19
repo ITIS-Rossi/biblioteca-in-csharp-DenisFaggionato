@@ -12,6 +12,7 @@ public class Libro
         this.Anno = AnnoLibro;
         this.pagine = NumPagine;
 
+        AutoreLibro.Aggiungi(this);
     }
 
     public override string ToString()
