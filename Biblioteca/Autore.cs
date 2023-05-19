@@ -6,7 +6,7 @@ public class Autore {
     
     private string Nome;
     private string Cognome;
-    private DateOnly Anno;
+    public DateOnly Anno;
     private Boolean Uomo;
     private List<Libro> Libri;
 
