@@ -1,22 +1,27 @@
 public class Libro
 {
-    private string Titolo;
-    private Autore Autore;
+    public string Titolo;
+    public Autore Autore;
     public int Anno;
-    private int pagine;
+    public int Pagine;
+    public int TotalePrestiti;
+    public Biblioteca Biblioteca;
 
-    public Libro(string TitoloLibro, Autore AutoreLibro, int AnnoLibro, int NumPagine)
+    public Libro(string TitoloLibro, Autore AutoreLibro, int AnnoLibro, int NumPagine, Biblioteca biblioteca)
     {
         this.Titolo = TitoloLibro;
         this.Autore = AutoreLibro;
         this.Anno = AnnoLibro;
-        this.pagine = NumPagine;
+        this.Pagine = NumPagine;
+        this.TotalePrestiti = 0;
+        this.Biblioteca = biblioteca;
 
         AutoreLibro.Aggiungi(this);
+        biblioteca.AggiungiLibro(this);
     }
 
     public override string ToString()
     {
-        return $"'{this.Titolo}' pubblicato nel {this.Anno}";
+        return $"'{this.Titolo}' pubblicato nel {this.Anno}, Prestiti totali: {this.TotalePrestiti}";
     }
 }

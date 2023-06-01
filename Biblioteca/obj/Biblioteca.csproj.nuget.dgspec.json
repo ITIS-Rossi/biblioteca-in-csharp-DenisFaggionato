@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
