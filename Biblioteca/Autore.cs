@@ -11,7 +11,7 @@ public Autore(string NomeAutore, string CognomeAutore, DateTime AnnoAutore, bool
     this.Cognome = CognomeAutore;
     this.Anno = AnnoAutore;
     this.Uomo = UomoAutore;
-    
+    this.Libri = new List<Libro>();
     biblioteca.AggiungiAutore(this);
 }
 

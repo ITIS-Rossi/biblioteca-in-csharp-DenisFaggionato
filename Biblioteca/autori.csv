@@ -1,1 +1,3 @@
-cognome;nome;genere;nascita
+Cognome dell'autore;Nome dell'autore;Uomo?;Data di Nascita
+Dostoevskij;Fëdor;True;11/11/1821 00:00:00
+Christie;Agatha;False;15/07/1890 00:00:00

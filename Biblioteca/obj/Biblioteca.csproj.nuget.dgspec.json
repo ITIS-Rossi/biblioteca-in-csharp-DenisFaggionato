@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\denis\\biblioteca-in-csharp-DenisFaggionato\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",

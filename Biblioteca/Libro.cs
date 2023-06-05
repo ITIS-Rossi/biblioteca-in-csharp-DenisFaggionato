@@ -16,7 +16,7 @@ public class Libro
         this.TotalePrestiti = 0;
         this.Biblioteca = biblioteca;
 
-        AutoreLibro.Aggiungi(this);
+        
         biblioteca.AggiungiLibro(this);
     }
 

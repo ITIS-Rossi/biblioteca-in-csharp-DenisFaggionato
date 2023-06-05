@@ -67,70 +67,63 @@ public void AggiungiLibro(Libro libro)
     }
 
     // Salva i libri nel file CSV
-public void SalvaCSV(string percorso)
-{
-    using (StreamWriter file = new StreamWriter(Path.Combine(percorso, "autori.csv")))
+    public void SalvaCSV (string indirizzo)
     {
-        file.WriteLine("cognome;nome;genere;nascita");
-        foreach (Autore autore in ElencoAutori)
+        using (StreamWriter file = new StreamWriter(Path.Combine(indirizzo, "autori.csv")))
         {
-            string genere = autore.Uomo ? "M" : "F";
-            file.WriteLine($"{autore.Cognome};{autore.Nome};{genere};{autore.Anno.ToShortDateString()}");
-        }
-    }
-    using (StreamWriter file = new StreamWriter(Path.Combine(percorso, "libri.csv")))
-    {
-        file.WriteLine("titolo;autore;anno;pagine");
-        foreach (Libro libro in ElencoLibri)
-        {
-            file.WriteLine($"{libro.Titolo};{libro.Autore.Cognome} {libro.Autore.Nome};{libro.Anno};{libro.Pagine}");
-        }
-    }
-}
-
-public void CaricaCSV(string percorso)
-{
-    using (StreamReader file = new StreamReader(Path.Combine(percorso, "autori.csv")))
-    {
-        string? lettura = file.ReadLine();
-        if (lettura == null)
-        {
-            Console.WriteLine("Impossibile Caricare da file");
-        }
-        else
-        {
-            while (true)
+            file.WriteLine("Cognome dell'autore;Nome dell'autore;Uomo?;Data di Nascita");
+            foreach (Autore autore in ElencoAutori)
             {
+                file.WriteLine($"{autore.Cognome};{autore.Nome};{autore.Uomo};{autore.Anno}");
+            }
+        }
+        using (StreamWriter file = new StreamWriter(Path.Combine(indirizzo, "libri.csv")))
+        {
+            file.WriteLine("Titolo del libro;Autore del libro;Anno di pubblicazione; Pagine ");
+            foreach (Libro libro in ElencoLibri)
+            {
+                file.WriteLine($"{libro.Titolo};{libro.Autore};{libro.Anno};{libro.Pagine}");
+            }
+        }
+    }
+    public void CaricaCSV (string indirizzo)
+    {
+        using (StreamReader file = new StreamReader(Path.Combine(indirizzo, "autori.csv")))
+        {
+            string? lettura = file.ReadLine();
+  
+            while(true)
+            {
+                //Console.WriteLine("UUUUUUUUUUUUUU");
                 lettura = file.ReadLine();
-                if (lettura == null)
+                if(lettura == null)
                     break;
                 string[] pezzi = lettura.Split(';');
                 string[] data = pezzi[3].Split('/');
                 Autore autore = new Autore(pezzi[1], pezzi[0], new DateTime(Convert.ToInt16(data[2]), Convert.ToInt16(data[1]), Convert.ToInt16(data[0])), Convert.ToBoolean(pezzi[2]), this);
-                AggiungiAutore(autore);
             }
+        
         }
-    }
-
-    using (StreamReader file = new StreamReader(Path.Combine(percorso, "libri.csv")))
-    {
-        string? legi = file.ReadLine();
-        while (true)
+        using (StreamReader file = new StreamReader(Path.Combine(indirizzo, "libri.csv")))
         {
-            legi = file.ReadLine();
-            if (legi == null)
-                break;
-            string[] pezzi = legi.Split(';');
-            string nomeAutore = pezzi[1];
-            Autore autore = ElencoAutori.FirstOrDefault(a => $"{a.Cognome} {a.Nome}" == nomeAutore);
-            if (autore != null)
+        string? lettura = file.ReadLine();
+            while(true)
             {
-                Libro libro = new Libro(pezzi[0], autore, Convert.ToInt32(pezzi[2]), Convert.ToInt32(pezzi[3]), this);
-                AggiungiLibro(libro);
+                lettura = file.ReadLine();
+                if(lettura == null)
+                    break;
+                string[] pezzi = lettura.Split(';');
+                foreach(Autore autore in ElencoAutori)
+                {
+                    if(pezzi[1] == ($"{autore.Cognome} {autore.Nome}"))
+                    {
+                        Libro libro = new Libro(pezzi[0], autore, (Convert.ToInt16(pezzi[2])), (Convert.ToInt16(pezzi[3])), this);
+                        break;
+                    }
+                }
             }
         }
     }
-}
 
 }
 
