@@ -1,7 +1,8 @@
 public class Autore {
+    // LF : dovrebbero essere delle Property, non degli Attributi pubblici (NON è lo stesso!!!
     public string Nome;
     public string Cognome;
-    // LF ANNO con un DateTime ????
+    // LF ANNO per data di nascita gestita con un DateTime ???
     public DateTime Anno;
     public bool Uomo;
     public List<Libro> Libri;
