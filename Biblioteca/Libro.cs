@@ -1,10 +1,12 @@
 public class Libro
 {
+    // LF : dovrebbero essere delle Property, non degli Attributi pubblici (NON è lo stesso!)
     public string Titolo;
     public Autore Autore;
     public int Anno;
     public int Pagine;
     public int TotalePrestiti;
+    // LF : sicuro che ci stia bene qua ???
     public Biblioteca Biblioteca;
 
     public Libro(string TitoloLibro, Autore AutoreLibro, int AnnoLibro, int NumPagine, Biblioteca biblioteca)
