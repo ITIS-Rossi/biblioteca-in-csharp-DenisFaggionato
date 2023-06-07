@@ -1,6 +1,7 @@
 public class Autore {
     public string Nome;
     public string Cognome;
+    // LF ANNO con un DateTime ????
     public DateTime Anno;
     public bool Uomo;
     public List<Libro> Libri;
