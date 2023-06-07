@@ -23,6 +23,8 @@ public Autore(string NomeAutore, string CognomeAutore, DateTime AnnoAutore, bool
     }
 
     public override string ToString(){
+        // LF : NON SERVE == true !!!!!!!!!!!!!!
+        // LF 2 : NON potevi semplificare un po' ????
         if(Uomo == true){
             return $"{this.Nome} {this.Cognome} nato il giorno {this.Anno} ";
         }
