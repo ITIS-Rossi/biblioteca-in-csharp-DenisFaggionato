@@ -1,5 +1,6 @@
 public class Biblioteca
 {
+    // LF : PERCHÈ UNA LISTA DI BIBLIOTECHE ?!?
     public List<Biblioteca> ElencoBiblioteche = new List<Biblioteca>();
 
     private string Nome;
